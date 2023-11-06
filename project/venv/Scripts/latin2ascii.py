@@ -1,4 +1,4 @@
-#!C:\Users\Prathima\downloads\resume\venv\Scripts\python.exe
+#!D:\CVR\ResumeScreening\project\venv\Scripts\python.exe
 
 #
 #  latin2ascii.py - converts latin1 characters into ascii.

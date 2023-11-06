@@ -1,4 +1,4 @@
-#!C:\Users\Prathima\downloads\resume\venv\Scripts\python.exe
+#!D:\CVR\ResumeScreening\project\venv\Scripts\python.exe
 from __future__ import with_statement
 import os
 import sys
