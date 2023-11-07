@@ -327,22 +327,22 @@ def run():
                 # query = 'select * from user_data;'
                 # plot_data = pd.read_sql(query, connection)
 
-                st.subheader("📈 Pie-Chart for Predicted Field Recommendations")
-                labels = plot_data.Predicted_Field.unique()
-                values = plot_data.Predicted_Field.value_counts()
-                fig1, ax1 = plt.subplots()
-                ax1.pie(values,labels=labels,startangle=90,autopct='%1.1f%%')
-                ax1.axis('equal')
-                st.pyplot(fig1)
+                # st.subheader("📈 Pie-Chart for Predicted Field Recommendations")
+                # labels = plot_data.Predicted_Field.unique()
+                # values = plot_data.Predicted_Field.value_counts()
+                # fig1, ax1 = plt.subplots()
+                # ax1.pie(values,labels=labels,startangle=90,autopct='%1.1f%%')
+                # ax1.axis('equal')
+                # st.pyplot(fig1)
 
                 
-                st.subheader("📈 Pie-Chart for User's Experience Level")
-                labels = plot_data.User_level.unique()
-                values = plot_data.User_level.value_counts()
-                fig2, ax2 = plt.subplots()
-                ax2.pie(values,labels=labels,startangle=90,autopct='%1.1f%%')
-                ax2.axis('equal')
-                st.pyplot(fig2)
+                # st.subheader("📈 Pie-Chart for User's Experience Level")
+                # labels = plot_data.User_level.unique()
+                # values = plot_data.User_level.value_counts()
+                # fig2, ax2 = plt.subplots()
+                # ax2.pie(values,labels=labels,startangle=90,autopct='%1.1f%%')
+                # ax2.axis('equal')
+                # st.pyplot(fig2)
                  
 
                
